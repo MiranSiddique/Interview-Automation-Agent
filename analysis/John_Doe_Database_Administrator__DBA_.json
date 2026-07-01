@@ -1,0 +1,53 @@
+[
+  {
+    "question": "How would you design and implement a backup and point\u2011in\u2011time recovery strategy for a production PostgreSQL database?",
+    "candidate_answer": "I know. Ask the next next question. Not sure. I haven't used Oracle Databoard before.",
+    "error": "Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}",
+    "score": 0,
+    "ideal_answer": "Failed to generate evaluation",
+    "key_concepts": [],
+    "candidate_summary": "Failed to parse candidate answer",
+    "strengths": [],
+    "missing_concepts": [],
+    "technical_errors": [
+      "Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}"
+    ],
+    "justification": "API error during evaluation",
+    "difficulty": "Unknown",
+    "recommendation": "Borderline"
+  },
+  {
+    "question": "Describe the steps you would take to identify and resolve a slow\u2011running query in a MySQL database using the EXPLAIN plan",
+    "candidate_answer": "I know.",
+    "error": "Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}",
+    "score": 0,
+    "ideal_answer": "Failed to generate evaluation",
+    "key_concepts": [],
+    "candidate_summary": "Failed to parse candidate answer",
+    "strengths": [],
+    "missing_concepts": [],
+    "technical_errors": [
+      "Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}"
+    ],
+    "justification": "API error during evaluation",
+    "difficulty": "Unknown",
+    "recommendation": "Borderline"
+  },
+  {
+    "question": "Explain how you would configure, monitor, and test a high\u2011availability setup using Oracle Data Guard",
+    "candidate_answer": "Ask the next next question. Not sure. I haven't used Oracle Databoard before.",
+    "error": "Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}",
+    "score": 0,
+    "ideal_answer": "Failed to generate evaluation",
+    "key_concepts": [],
+    "candidate_summary": "Failed to parse candidate answer",
+    "strengths": [],
+    "missing_concepts": [],
+    "technical_errors": [
+      "Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}"
+    ],
+    "justification": "API error during evaluation",
+    "difficulty": "Unknown",
+    "recommendation": "Borderline"
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "ideal_answer": "A fault-tolerant ETL pipeline in AWS would involve designing a system that can handle failures and exceptions at each stage of the pipeline. This would include using AWS services such as S3 for data ingestion, Apache Spark on EMR for data transformation, and Redshift for data loading. Data quality checks would be performed at each stage to ensure data integrity. The pipeline would be designed to handle failures and exceptions, with features such as retry mechanisms, logging, and alerting. Additionally, the pipeline would be monitored and managed using AWS services such as CloudWatch and CloudTrail.",
+    "key_concepts": [
+      "Fault-tolerant design",
+      "AWS services (S3, EMR, Redshift)",
+      "Data quality checks",
+      "Error handling and logging",
+      "Monitoring and management"
+    ],
+    "candidate_summary": "The candidate appears to be unfamiliar with the concept of designing a fault-tolerant ETL pipeline in AWS and is unable to provide a coherent answer.",
+    "strengths": [],
+    "missing_concepts": [
+      "Fault-tolerant design principles",
+      "AWS services and their roles in ETL pipelines",
+      "Data quality checks and validation",
+      "Error handling and logging mechanisms",
+      "Monitoring and management strategies"
+    ],
+    "technical_errors": [
+      "Lack of understanding of ETL pipeline components",
+      "Inability to describe a fault-tolerant design",
+      "No mention of data quality checks or error handling"
+    ],
+    "score": 19,
+    "justification": "The candidate's answer demonstrates a significant lack of understanding of the key concepts and principles involved in designing a fault-tolerant ETL pipeline in AWS. The answer is vague and does not provide any meaningful technical details.",
+    "difficulty": "Medium",
+    "recommendation": "Reject",
+    "question": "How would you design a fault\u2011tolerant ETL pipeline in AWS that ingests daily logs from S3, transforms them with Spark, and loads the results into Redshift while ensuring data quality checks?",
+    "candidate_answer": "I don't know how to extract the details. So can you please proceed to the next session? Thought this was an oral interview by my I'm being asked written questions. No. I would use the predefined steps which are preferred to access in order to do"
+  },
+  {
+    "ideal_answer": "A SQL query that aggregates user activity by day and partitions the result by country would involve using the DATE function to extract the date from a timestamp, the SUM or COUNT function for aggregation, and the PARTITION BY clause for partitioning. To optimize performance, indexes on the columns used in the WHERE and JOIN clauses, as well as materialized views for frequently accessed queries, could be utilized. For example: SELECT country, DATE(activity_time) AS activity_date, SUM(activity_count) AS total_activity FROM user_activity GROUP BY country, DATE(activity_time);",
+    "key_concepts": [
+      "SQL query",
+      "aggregation",
+      "partitioning",
+      "indexes",
+      "materialized views"
+    ],
+    "candidate_summary": "The candidate was unable to provide a SQL query that aggregates user activity by day and partitions the result by country, and did not demonstrate any understanding of how to optimize performance using indexes or materialized views.",
+    "strengths": [],
+    "missing_concepts": [
+      "SQL syntax",
+      "aggregation functions",
+      "partitioning",
+      "indexing",
+      "materialized views"
+    ],
+    "technical_errors": [
+      "Lack of understanding of SQL query structure",
+      "Inability to apply aggregation and partitioning concepts",
+      "No consideration of performance optimization techniques"
+    ],
+    "score": 0,
+    "justification": "The candidate's response indicated a complete lack of understanding of the problem and the relevant concepts, and did not provide any attempt at a solution.",
+    "difficulty": "Medium",
+    "recommendation": "Reject",
+    "question": "Write a SQL query that aggregates user activity by day, partitions the result by country, and optimizes performance using appropriate indexes or materialized views",
+    "candidate_answer": "I don't know how to extract the details. So can you please proceed to the next session?"
+  },
+  {
+    "ideal_answer": "An ideal answer would include a detailed explanation of how to orchestrate a multi-step data workflow using Apache Airflow, including the creation of DAGs (directed acyclic graphs), defining task dependencies, implementing retries, and setting up alerting mechanisms. It would also cover the integration with GCP services such as Cloud Storage, BigQuery, and Cloud Composer. Additionally, it would discuss the use of Airflow operators, sensors, and hooks to manage task dependencies and handle failures. The answer would also touch upon the importance of monitoring, logging, and security in a production data lake environment.",
+    "key_concepts": [
+      "Apache Airflow",
+      "DAGs",
+      "task dependencies",
+      "retries",
+      "alerting",
+      "GCP services",
+      "Cloud Storage",
+      "BigQuery",
+      "Cloud Composer",
+      "Airflow operators",
+      "sensors",
+      "hooks"
+    ],
+    "candidate_summary": "The candidate's answer is extremely brief and lacks any technical details. It appears that the candidate is unsure about the format of the interview and does not provide a meaningful response to the question.",
+    "strengths": [],
+    "missing_concepts": [
+      "DAGs",
+      "task dependencies",
+      "retries",
+      "alerting",
+      "GCP services",
+      "Cloud Storage",
+      "BigQuery",
+      "Cloud Composer",
+      "Airflow operators",
+      "sensors",
+      "hooks"
+    ],
+    "technical_errors": [
+      "Lack of understanding of Apache Airflow and its components",
+      "No mention of task dependencies, retries, or alerting mechanisms",
+      "No discussion of GCP services or Cloud Composer"
+    ],
+    "score": 19,
+    "justification": "The candidate's answer is virtually empty and does not demonstrate any understanding of Apache Airflow or its application in a production data lake environment on GCP. The answer lacks technical details and does not address any of the key concepts related to the question.",
+    "difficulty": "Medium",
+    "recommendation": "Reject",
+    "question": "Explain how you would orchestrate a multi\u2011step data workflow with Apache Airflow, including task dependencies, retries, and alerting for a production data lake on GCP",
+    "candidate_answer": "Thought this was an oral interview by my I'm being asked written questions. No. I would use the predefined steps which are preferred to access in order to do"
+  }
+]

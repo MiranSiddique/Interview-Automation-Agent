@@ -1,0 +1,40 @@
+
+
+# Virtual environments
+.venv
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+.cache/
+KMS/logs/
+
+# Frontend build output
+realtime-playground/web/.next/
+realtime-playground/web/node_modules/
+realtime-playground/web/tsconfig.tsbuildinfo
